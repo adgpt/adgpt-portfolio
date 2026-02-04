@@ -2,7 +2,8 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import HeroText from "../components/HeroText";
 import ParallaxBackground from "../components/ParallaxBackground";
 import { Astronaut } from "../components/Astronaut";
-import { Float, Loader } from "@react-three/drei";
+import { Float } from "@react-three/drei";
+import Loader from "../components/Loader";
 import { useMediaQuery } from "react-responsive";
 import { easing } from "maath"; // or "@react-spring/three" if you use that package
 import { Suspense } from "react";
