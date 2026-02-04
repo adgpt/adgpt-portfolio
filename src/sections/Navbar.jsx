@@ -39,8 +39,13 @@ const Navbar = () => {
   return (
     <header className="fixed inset-x-0 top-0 z-20 backdrop-blur-lg bg-primary/80">
       <div className="mx-auto c-space max-w-7xl flex items-center justify-between py-3">
-        <a href="#home" className="text-lg font-semibold">
-          Abhinav
+        <a href="#home" className="flex items-center gap-2 text-lg font-semibold">
+          <img
+            src="/logo.svg"
+            alt="Abhinav logo"
+            className="h-6 w-6"
+          />
+          <span>Abhinav</span>
         </a>
 
         {/* Desktop nav */}
