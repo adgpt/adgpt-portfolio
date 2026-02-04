@@ -62,7 +62,7 @@ export const myProjects = [
       "A collection of problems solved with clean Python, written to be readable and teachable.",
     href: "https://github.com/adgpt/MindBending-Problems",
     logo: "",
-    image: "/assets/projects/mindbending.jpg",
+    image: "/assets/projects/mindbending.png",
     tags: ["Python", "Problem Solving"],
   },
 ];
